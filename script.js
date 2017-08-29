@@ -1,3 +1,5 @@
+<script language="javascript" type="text/javascript">
+
 var theWord;
 var count= 0000;
 
