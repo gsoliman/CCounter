@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html style="height: 100%; width: 100%">
 <head>
-<title>Kirieleison Counter</title>
+<title>CCounter</title>
 <meta name="Description" content="Kcounter, Kirieleison Counter, Lord Have Mercy Counter, Religious" width=device-width>
 <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 <link rel="icon" type="image/png" href="https://www.weebly.com/editor/uploads/5/1/6/2/51624833/custom_themes/661975683809160897/files/nz2.PNG" />
@@ -95,6 +95,13 @@ overflow: hidden;
 
 </style>
 <script>
+var mob= HtmlService.getUserAgent();
+  if (mob.indexOf('Mobi') < 0){
+  window.location.href="/desktop";
+  }
+  	
+	
+	
 alert("Click the pictures to add to the CCounter! Click on the number to Reset.");
 
 var count= 0000;
@@ -140,7 +147,6 @@ document.getElementById("output").innerHTML = "00"+ count;
 
 <body class="main" style="height: 100%;">
 
-<!-- <script src="https://www.weebly.com/editor/uploads/5/1/6/2/51624833/custom_themes/661975683809160897/files/main.js"></script> -->
 
 
 <div onclick="restart()" class = "output">
