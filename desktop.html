@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html style="height: 100%; width: 100%">
+<head>
+<title>Kirieleison Counter</title>
+<meta name="Description" content="Kcounter, Kirieleison Counter, Lord Have Mercy Counter, Religious" width=device-width>
+<!--<link rel="stylesheet" type="text/css" href="https://www.weebly.com/editor/uploads/5/1/6/2/51624833/custom_themes/661975683809160897/files/styleDesktop.css" />-->
+<link rel="icon" type="image/png" href="https://www.weebly.com/editor/uploads/5/1/6/2/51624833/custom_themes/661975683809160897/files/nz2.PNG" />
+</head>
+
+<body class="main" style="height: 100%;">
+<!--<script src="https://www.weebly.com/editor/uploads/5/1/6/2/51624833/custom_themes/661975683809160897/files/main.js"></script>
+<noscript><meta http-equiv="refresh" content="0;url=redirect.html"></noscript> -->
+
+<style>
+.main
+{
+background-color: black;
+color: white;
+}
+
+
+
+.output
+{
+border-style: outset;
+color: white;
+text-align: center;
+overflow: hidden;
+height:35%;
+width: 100%;
+font-weight:bold;
+font-size: 400%;
+pading:0;
+margin: .1% 0px .1% 0px;
+
+}
+
+
+
+
+
+
+
+
+.divtable
+{
+height: 75%;
+width: 100%;
+}
+
+
+
+.table
+{
+border-style: outset;
+width: 100%;
+align: center;
+background-color: black;
+height: 100%;
+}
+
+
+
+
+
+
+
+.td1
+{
+width: 30%;
+border-style: outset;
+align: center;
+background-color: black;
+height: 4%;
+color: white;
+font-size:100%;
+font-weight:bold;
+font-family: sans-serif;
+text-align: center;
+margin: 0px 0px 0px 0px;
+overflow: hidden;
+}
+
+
+
+.td21
+{
+background-image: url("https://www.weebly.com/editor/uploads/5/1/6/2/51624833/custom_themes/661975683809160897/files/cross1.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width: 30%;
+border-style: outset;
+align: center;
+background-color: black;
+height: 60%;
+color: white;
+font-size:140%;
+font-weight:bold;
+text-align: center;
+margin: 0px 0px 0px 0px;
+overflow: hidden;
+}
+
+
+
+
+.td22
+{
+background-image: url("https://www.weebly.com/editor/uploads/5/1/6/2/51624833/custom_themes/661975683809160897/files/cross2.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width: 30%;
+border-style: outset;
+align: center;
+background-color: black;
+height: 60%;
+color: white;
+font-size:140%;
+font-weight:bold;
+text-align: center;
+margin: 0px 0px 0px 0px;
+overflow: hidden;
+}
+
+
+
+
+
+.td23
+{
+background-image: url("https://www.weebly.com/editor/uploads/5/1/6/2/51624833/custom_themes/661975683809160897/files/cross3.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width: 30%;
+border-style: outset;
+align: center;
+background-color: black;
+height: 60%;
+color: white;
+font-size:140%;
+font-weight:bold;
+text-align: center;
+margin: 0px 0px 0px 0px;
+overflow: hidden;
+}
+</style>
+
+
+
+
+
+
+<script>
+alert("You have been taken to the desktop optimized site. Click the pictures to add to the CCounter! Click the number to Reset.");
+
+var count= 0000;
+
+function add1()
+{
+count= count + 1;
+document.getElementById("output").innerHTML = "00"+ count;
+}
+
+
+
+function add3()
+{
+count= count + 3;
+document.getElementById("output").innerHTML = "00"+ count;
+
+}
+
+
+
+function add2()
+{
+count= count+ 2;
+document.getElementById("output").innerHTML = "00"+ count;
+}
+
+
+
+function restart()
+{ 
+var que= confirm("Are you sure you want to RESET the counter?"); 
+if (que==true)
+	count=0;
+else 
+	count=count;
+document.getElementById("output").innerHTML = "00"+ count;
+}
+
+</script>
+
+
+
+<div onclick="restart()" class = "output">
+<div class="outSon">
+<h1 id="output">0000</h1>
+</div>
+</div>
+
+
+
+<div class="divtable">
+<table class="table">
+<tr>
+<td class="td1"><h1>ADD 1</h1></td>
+<td class="td1"><h1>ADD 2</h1></td>
+<td class="td1"><h1>ADD 3</h1></td>
+</tr>
+
+<tr>
+
+<td onclick="add1()" class="td21"></td>
+<td onclick="add2()" class="td22"></td>
+<td onclick="add3()" class="td23"></td>
+
+</tr>
+</table>
+</div>
+
+
+
+
+
+</body>
+</html>
